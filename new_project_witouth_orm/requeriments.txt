@@ -1,0 +1,27 @@
+
+
+--- Install Composer ---
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
+sudo php composer update  
+
+
+--- Install extensions ---
+php composer.phar install
+
+--- Search extensions Bower ---
+https://packagist.org/
+
+
+
+--- Install Bower ---
+npm install -g bower
+
+
+
+--- Install extension ---
+bower install “Nombre de la extensión“
+
+--- Search extensions Bower ---
+http://bower.io/search/
